@@ -358,6 +358,9 @@ def cards_clean(args):
                 cards_to_purge.append(card)
     delete_cards(cards_to_purge)
 
+def asd():
+    print("asd")
+
 def cards_rm(args):
     delete_cards(args.usernames)
 
